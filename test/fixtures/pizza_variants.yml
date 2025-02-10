@@ -1,0 +1,43 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+RegularDeluxeVeggie:
+  id: 1
+  variant: Regular
+  price: 150
+  pizza_id: 1
+  stock: 1
+
+MediumDeluxeVeggie:
+  id: 2
+  variant: Medium
+  price: 200
+  pizza_id: 1
+  stock: 1
+
+LargeDeluxeVeggie:
+  id: 3
+  variant: Large
+  price: 325
+  pizza_id: 1
+  stock: 1
+
+RegularNonVegSupreme:
+  id: 4
+  variant: Regular
+  price: 190
+  pizza_id: 2
+  stock: 1
+
+MediumNonVegSupreme:
+  id: 5
+  variant: Medium
+  price: 325
+  pizza_id: 2
+  stock: 1
+
+LargeNonVegSupreme:
+  id: 6
+  variant: Large
+  price: 425
+  pizza_id: 2
+  stock: 1        

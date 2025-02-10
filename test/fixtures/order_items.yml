@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# one:
+#   order: one
+#   pizza: one
+#   pizza_variant: one
+#   crust: one
+#   price: 9.99
+#   qty: 1
+
+# two:
+#   order: two
+#   pizza: two
+#   pizza_variant: two
+#   crust: two
+#   price: 9.99
+#   qty: 1

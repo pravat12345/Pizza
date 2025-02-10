@@ -1,0 +1,8 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+Cheese:
+  id: 1
+  name: Cheese
+  price: 32
+
+

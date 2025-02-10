@@ -1,0 +1,66 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# test/fixtures/rule_engines.yml
+
+veg_topping_exclusion:
+  category: 0
+  rule_category: Topping
+  type_of_rule: Exclusion 
+  values: '3,4'
+  variantsizes: Regular,Medium,Large
+  count_value: 0
+  error_message_local_key: 'orders_validate.veg_topping'
+
+non_veg_no_paneer_topping:
+  category: 1
+  rule_category: Topping
+  type_of_rule: Exclusion
+  values: 2
+  variantsizes: Regular,Medium,Large
+  count_value: 0
+  error_message_local_key: 'orders_validate.non_veg_no_paner_topping'
+
+veg_crust_anyone:
+  category: 0
+  rule_category: Crust
+  type_of_rule: Anyone
+  values: 1
+  variantsizes: Regular,Medium,Large
+  count_value: 0
+  error_message_local_key: 'orders_validate.crust'
+
+non_veg_crust_anyone:
+  category: 1
+  rule_category: Crust
+  type_of_rule: Anyone
+  values: 1
+  variantsizes: Regular,Medium,Large
+  count_value: 0
+  error_message_local_key: 'orders_validate.crust'
+
+non_veg_anyone_topping:
+  category: 1
+  rule_category: Topping
+  type_of_rule: Anyone
+  values: '3,4'
+  variantsizes: Regular,Medium,Large
+  count_value: 0
+  error_message_local_key: 'orders_validate.non_veg_anyone'
+
+veg_free_topping:
+  category: 0
+  rule_category: Topping
+  type_of_rule: Free
+  values: '3,4'
+  variantsizes: Large
+  count_value: 2
+  error_message_local_key: ''
+
+non_veg_free_topping:
+  category: 1
+  rule_category: Topping
+  type_of_rule: Free
+  values: '1,2,3,4'
+  variantsizes: Large
+  count_value: 2
+  error_message_local_key: ''

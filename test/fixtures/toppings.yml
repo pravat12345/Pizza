@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+BlackOlive:
+  id: 1
+  name: Black Olive
+  category: 0
+  price: 20
+
+Paneer:
+  id: 2 
+  name: Paneer
+  category: 0
+  price: 35
+
+ChickenTikka:
+  id: 3
+  name: Chicken Tikka
+  category: 1
+  price: 35
+
+BarbequeChicken:
+  id: 4
+  name: Barbeque Chicken
+  category: 1
+  price: 45

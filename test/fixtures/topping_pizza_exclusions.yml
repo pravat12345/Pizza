@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ExclusionVegChickenTikka:
+  id: 1
+  category: 0
+  topping_id: 3
+
+ExclusionVegBarbequeChicken:
+  id: 2
+  category: 0
+  topping_id: 4
+
+ExclusionNonVegPaneer:
+  id: 3
+  category: 1
+  topping_id: 2  

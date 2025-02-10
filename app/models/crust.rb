@@ -1,0 +1,2 @@
+class Crust < ApplicationRecord
+end

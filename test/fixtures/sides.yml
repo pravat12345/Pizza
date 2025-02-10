@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+ColdDrink:
+  id: 1
+  name: Cold Drink
+  price: 55
+
+Mousse:
+  id: 2
+  name: Mousse Cake
+  price: 90
